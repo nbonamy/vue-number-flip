@@ -45,3 +45,7 @@ onMounted(() => {
 })
 
 </script>
+
+<style>
+@import '../node_modules/number-flip-animation/dist/styles.css'
+</style>
