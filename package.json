@@ -1,0 +1,24 @@
+{
+  "name": "vue-number-flip",
+  "version": "0.1.0",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "vue-tsc -b && vite build"
+  },
+  "dependencies": {
+    "number-flip-animation": "github:nbonamy/number-flip-animation",
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "@vue/tsconfig": "^0.7.0",
+    "typescript": "~5.6.2",
+    "vite": "^6.0.3",
+    "vite-plugin-dts": "^4.4.0",
+    "vue-tsc": "^2.1.10"
+  }
+}
